@@ -1,4 +1,4 @@
-# nostr-irc
+# nostr-cli
 A simple command line based nostr client that simulates the old school IRC clients of the past.
 
 Barebones, no fluff, no bells, no whistles, no apologies. This is a hobby project so I can re-live the nostalgia of old school console based IRC clients and chat with my friends over a stream of text. The idea is to connect to a single "IRC" purpose relay for real time chat with other connected users.
@@ -16,13 +16,13 @@ Currently supported:
 - Command tab completion 
 
 # Screenshot
-<img src="https://github.com/ronaldstoner/nostr-irc/blob/main/images/poc.png?raw=true" alt="A text console showing spammy pubkeys and their content" width="600">
+<img src="https://github.com/ronaldstoner/nostr-cli/blob/main/images/poc.png?raw=true" alt="A text console showing spammy pubkeys and their content" width="600">
 
 # Install
 You'll have to add a bunch of pip packages. I'll add a requirements soon. 
 
 # Usage
-python nostr-irc.py
+python nostr-cli.py
 
 ```options:
 
@@ -40,7 +40,7 @@ Commands inside the client can be used to interact with various functions. Comma
 - /clear - clears the messages window
 - [PENDING] /join - joins an existing or creates a new chatroom
 - [PENDING] /part - leaves a chatroom
-- /quit - quits the nostr-irc client
+- /quit - quits the nostr-cli client
 - [PENDING] /slap - slaps another users pubkey with a fish
 - /who - displays a list of recently seen users
 ```

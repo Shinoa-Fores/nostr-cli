@@ -39,7 +39,7 @@ async def subscribe_to_notes(relay, status_bar, time_since, messages, client_uui
                     "kinds": [1],
                     "since": time_since
                 }
-                await websocket_notes.send(json.dumps(["REQ", "irc-" + str(client_uuid), search_filter]))
+                await websocket_notes.send(json.dumps(["REQ", "cli-" + str(client_uuid), search_filter]))
 
                 while True:
 
